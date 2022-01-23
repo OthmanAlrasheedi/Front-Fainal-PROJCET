@@ -1,0 +1,45 @@
+.addcoures {
+  width: 339px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(140 153 153);
+  border-radius: 40px 70px;
+  margin-top: 100px;
+  padding: 1px;
+  background-color: F3F0D7;
+  /* box-shadow: 1px 10px 7px rgb(0 0 0 / 40%); */
+  box-shadow: 12px 10px 5px 0px rgb(0 0 0 / 44%);
+  -webkit-box-shadow: 12px 10px 5px 0px rgb(0 0 0 / 44%);
+  -moz-box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.44);
+  background: #52a1b11c;
+}
+
+.addcoures input {
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  /* border: 2px solid #BBBBBB; */
+}
+.butnadd {
+  width: 300px;
+  height: 50px;
+  border: 2px solid #ffe3d8;
+  background: #1882d4;
+  background-image: linear-gradient(to bottom, #00ebeb, #007ee5);
+  border-radius: 14px;
+  color: #0b3555;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.butnadd:hover {
+  /* background-color: #0A043C;
+  color: #FFE3D8; */
+  background-image: linear-gradient(to bottom, #00ebeb, #0b3555);
+
+  color: rgb(255, 255, 255);
+}

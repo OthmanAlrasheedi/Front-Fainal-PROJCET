@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url("");
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.course {
+  width: 30%;
+  border: 1px solid black;
+  transition: 1s;
+  margin-top: 50px;
+
+  box-shadow: 1px 10px 7px rgba(0, 0, 0, 0.404);
+}
+
+.course:hover {
+  transform: scale(1.02);
+}
+
+.course img {
+  margin-left: 80px;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.allinput {
+  margin: auto;
+  width: 50%;
+}
+.namecoures {
+  background-color: #03506f;
+  text-align: center;
+  color: white;
+}
+
+.butremove {
+  text-align: center;
+  width: 30px;
+  border-radius: 30px;
+  color: #121214;
+  background-color: rgb(94 137 146);
+  margin: px;
+  margin-left: 150px;
+
+  /* width: 30px;
+  height: 19px;
+  margin: 10px; */
+}
+.discrptionCoures {
+  text-align: center;
+}
+.inputSea {
+  /* color: black;
+  border-radius: 5px solid black;
+  margin: auto;
+  width: 250px;
+  height: 30px; */
+  margin-left: -80px;
+  width: 261px;
+  border-radius: 5px solid black;
+  font-size: 16px;
+  font-family: DINNextLTArabic, Cairo, sans-serif !important;
+  padding: 15px 45px 15px 15px;
+  background-color: #6393a666;
+  color: #153f5e;
+  border: none;
+  transition: all 0.4s;
+  opacity: 0.5;
+  border-radius: 8px;
+}
+
+.search {
+  border-radius: 3px solid black;
+  width: 34px;
+  height: 34px;
+}
+.inputSearch {
+  margin: auto;
+  margin-bottom: auto;
+  width: 25%;
+  height: 30%;
+  padding: 20px;
+  margin: 20x;
+}
+.h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.h4 {
+  text-align: center;
+  margin: 10px;
+}
+.abdaaldrs {
+  text-align: center;
+}
+.favi {
+  position: relative;
+}
+@media only screen and (max-width: 900px) {
+  .courses {
+    width: 1217px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 6px;
+  }
+  .inputSea {
+    margin-left: -76px;
+    width: 146px;
+  }
+  .h3 {
+    text-align: center;
+    margin: 10px;
+  }
+}

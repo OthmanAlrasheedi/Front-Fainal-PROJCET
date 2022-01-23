@@ -1,0 +1,120 @@
+* {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.signup {
+  border: 2px white;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  gap: 10px;
+  margin: 150px auto;
+}
+h1 {
+  text-align: center;
+}
+.but {
+  height: 30px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: FDFAF6;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 10px;
+}
+
+.inputsign {
+  height: 30px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.tosign {
+  text-decoration: none;
+}
+/* }/
+?.signup {
+  width: 50%;
+  height: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(12, 0, 0);
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+.inputsign {
+  text-align: center;
+    width: 40%;
+  height: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+  box-sizing: border-box;
+  gap: 10px;
+  width: auto;
+}
+
+.but {
+  background-color: #81968e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 2px;
+  border: 50ox;
+  cursor: pointer;
+  width: 10%;
+  height: 10%;
+}
+
+but:hover {
+  opacity: 0.8;
+} */
+.tosignup {
+  margin: 20px;
+  border-radius: 20px solid rgb(59, 16, 158);
+}
+
+@media only screen and (max-width: 900px) {
+  .signup {
+    border: 2px white;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    gap: 10px;
+    margin: 150px auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  .but {
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: FDFAF6;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 10px;
+  }
+
+  .inputsign {
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .tosign {
+    text-decoration: none;
+  }
+}
